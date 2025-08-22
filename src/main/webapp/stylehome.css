@@ -1,0 +1,48 @@
+@charset "ISO-8859-1";
+.navbar {
+  background-color: #242424;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-bottom: 1px solid #333;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+  color: #fff;
+  font-size: 1rem;
+  margin: 0 1rem;
+}
+
+.navbar-nav .nav-link.active {
+  color: #00ff00;
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link.disabled {
+  color: #888;
+  cursor: not-allowed;
+}
+
+.form-control {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+}
+
+.btn-outline-success {
+  background-color: transparent;
+  color: #00ff00;
+  border: 2px solid #00ff00;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+}
+
+.btn-outline-success:hover {
+  background-color: #00ff00;
+  color: #fff;
+}
